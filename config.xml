@@ -9,14 +9,13 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <access origin="mailto:*" launch-external="yes" />
-	
+   	
 	<gap:splash src="splash.png" />
+<preference name="show-splash-screen-spinner" value="true" />
 <preference name="AutoHideSplashScreen" value="false" />  	
 <preference name="SplashScreenDelay" value="50000" />    
 <preference name="fullscreen" value="false" />
-	
-	
+
 	
 	
 	<platform name="android">
