@@ -10,7 +10,9 @@
     <content src="index.html" />
     <access origin="*" />
 	
-	<icon src="icon.png" />
-	<splash src="Splash.png" />
+	<platform name="android">
+        <icon qualifier="xxxhdpi" src="Icon.png" />
+        <splash qualifier="" src="Splash.png" />
+   	</platform>
 	
 </widget>
