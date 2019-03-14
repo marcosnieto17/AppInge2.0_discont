@@ -13,16 +13,16 @@
 	
 	<gap:splash src="splash.png" />
 <preference name="AutoHideSplashScreen" value="false" />  	
-<preference name="SplashScreenDelay" value="10000" />    
+<preference name="SplashScreenDelay" value="50000" />    
 <preference name="fullscreen" value="false" />
 	
 	
 	<platform name="android">
         <icon qualifier="xxxhdpi" src="Icon.png" />
-        <splash qualifier="" src="Splash.png" />
+      
    	</platform>
 	
-
+<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
 	
 	
 	
