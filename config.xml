@@ -13,13 +13,14 @@
 	
 	<gap:splash src="splash.png" />
 <preference name="show-splash-screen-spinner" value="true" />
-<preference name="SplashScreenDelay" value="3000" />    
+<preference name="SplashScreenDelay" value="5000" />    
 <preference name="fullscreen" value="true" />
+	
 	
 	
 	<platform name="android">
         <icon qualifier="xxxhdpi" src="Icon.png" />
-   
+        <splash qualifier="" src="Splash.png" />
    	</platform>
 	
 	
