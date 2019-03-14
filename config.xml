@@ -14,8 +14,8 @@
 	<gap:splash src="splash.png" />
 <preference name="show-splash-screen-spinner" value="true" />
 <preference name="AutoHideSplashScreen" value="false" />  	
-<preference name="SplashScreenDelay" value="50000" />    
-<preference name="fullscreen" value="false" />
+<preference name="SplashScreenDelay" value="5000" />    
+<preference name="fullscreen" value="true" />
 	
 	
 	<platform name="android">
