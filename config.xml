@@ -10,12 +10,13 @@
     <content src="index.html" />
     <access origin="*" />
 	
+	
 	<platform name="android">
         <icon qualifier="xxxhdpi" src="Icon.png" />
         <splash qualifier="" src="Splash.png" />
    	</platform>
 	
 	<gap:splash gap:platform="android" gap:qualifier="port-xhdpi " src="www/Splash.png" />
-	<gap:plugin name="org.apache.cordova.inappbrowser" />
+	
 	
 </widget>
