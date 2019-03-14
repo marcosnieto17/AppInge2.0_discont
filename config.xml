@@ -9,23 +9,12 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-	
+    <access origin="mailto:*" launch-external="yes" />
 	
 	<gap:splash src="splash.png" />
 <preference name="AutoHideSplashScreen" value="false" />  	
 <preference name="SplashScreenDelay" value="50000" />    
 <preference name="fullscreen" value="false" />
-	
-<splash src="www/splash.png" platform="android" qualifier="ldpi" />
-<splash src="www/splash.png" platform="android" qualifier="mdpi" />
-<splash src="www/splash.png" platform="android" qualifier="hdpi" />
-<splash src="www/splash.png" platform="android" qualifier="xhdpi" />
-<splash src="www/splash.png" platform="android" qualifier="fr-xhdpi" />
-<splash src="www/splash.png" platform="android" qualifier="port-xxhdpi" />
-<splash src="www/splash.png" platform="android" qualifier="land-xxhdpi" />
-	
-	
-	
 	
 	
 	
