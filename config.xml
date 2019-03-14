@@ -10,12 +10,12 @@
     <content src="index.html" />
     <access origin="*" />
    	
+	
 	<gap:splash src="splash.png" />
 <preference name="show-splash-screen-spinner" value="true" />
 <preference name="AutoHideSplashScreen" value="false" />  	
 <preference name="SplashScreenDelay" value="50000" />    
 <preference name="fullscreen" value="false" />
-
 	
 	
 	<platform name="android">
@@ -23,7 +23,10 @@
         <splash qualifier="" src="Splash.png" />
    	</platform>
 	
+	
 <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
+
+<gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
 	
 	
 	
