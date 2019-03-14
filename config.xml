@@ -15,4 +15,7 @@
         <splash qualifier="" src="Splash.png" />
    	</platform>
 	
+	<gap:splash gap:platform="android" gap:qualifier="port-xhdpi " src="www/Splash.png" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" />
+	
 </widget>
